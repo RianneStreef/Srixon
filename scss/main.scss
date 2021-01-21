@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   margin: 0;
 }
@@ -151,6 +152,7 @@ main {
 }
 
 .cat-img {
+  display: block;
   max-width: 100%;
 }
 
@@ -176,7 +178,8 @@ ul {
 }
 
 .product-img {
-  width: 15%;
+  width: 100px;
+  height: 100px;
 }
 
 .product-name {
