@@ -31,6 +31,8 @@ nav {
   min-height: 25px;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 nav a {
   margin-left: 15px;
