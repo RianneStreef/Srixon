@@ -170,7 +170,7 @@ main {
   padding: 5px;
   width: 100%;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -390,6 +390,10 @@ footer h3 {
   }
 
   h2 {
+    font-size: 1.4rem;
+  }
+
+  .h2-categories {
     font-size: 1.4rem;
   }
 
