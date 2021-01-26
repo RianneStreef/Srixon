@@ -52,7 +52,7 @@ nav {
   width: 100%;
   margin-right: 25px;
   p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #ffffff;
     margin: 0;
     text-transform: uppercase;
@@ -118,6 +118,17 @@ p {
   margin-bottom: 30px;
 }
 
+td {
+  color: #808080;
+  font-size: 0.8rem;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+  display: inline;
+}
+
 .p-list {
   color: #808080;
   line-height: 2;
@@ -126,7 +137,7 @@ p {
 
 .header-img {
   width: 100%;
-  margin-top: 38px;
+  margin-top: 25px;
 }
 .header-img-main {
   width: 100%;
@@ -259,7 +270,7 @@ footer {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 38px;
+  margin-top: 25px;
 }
 
 /* Hide the images by default */
