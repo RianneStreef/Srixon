@@ -33,6 +33,7 @@ nav {
 }
 nav a {
   margin-left: 15px;
+  margin-right: 15px;
 }
 nav a:visited {
   color: #ffffff;
@@ -44,7 +45,6 @@ nav a:visited {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  margin-right: 25px;
 }
 .name p {
   font-size: 0.8rem;
@@ -176,7 +176,7 @@ main {
 
 .cat-img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 ol {
@@ -358,9 +358,9 @@ footer h3 {
   }
 }
 /* responsive */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 700px) {
   body {
-    width: 900px;
+    width: 700px;
     height: 100vh;
     margin-right: auto;
     margin-left: auto;
