@@ -9,6 +9,7 @@
     <title>Srixon EU & UK Catalogue</title>
     <link rel="icon" href="./img/favico.ico" />
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
     <div class="wrapper index-wrapper">
@@ -69,4 +70,17 @@
       </main>
     </div>
   </body>
+  <script>
+    if ("serviceWorker" in navigator) {
+      console.log("Will the service worker register?");
+      navigator.serviceWorker
+        .register("service-worker.js")
+        .then(function (reg) {
+          console.log("Yes, it did.");
+        })
+        .catch(function (err) {
+          console.log("No it didn't. This happened:", err);
+        });
+    }
+  </script>
 </html>
