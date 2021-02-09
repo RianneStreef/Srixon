@@ -7,6 +7,7 @@
 
 .loader {
   height: auto;
+  height: auto;
   background: url("../img/loader.jpg");
   opacity: 0;
   background-size: cover;
