@@ -10,8 +10,16 @@
     <link rel="icon" href="./img/favico.ico" />
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+      $(window).load(function () {
+        $(".loader").fadeOut("slow");
+      });
+    </script>
   </head>
   <body>
+    <div class="loader"></div>
     <div class="wrapper index-wrapper">
       <header>
         <img src="./img/logo.jpg" class="header-img-main" />
@@ -70,17 +78,4 @@
       </main>
     </div>
   </body>
-  <script>
-    if ("serviceWorker" in navigator) {
-      console.log("Will the service worker register?");
-      navigator.serviceWorker
-        .register("service-worker.js")
-        .then(function (reg) {
-          console.log("Yes, it did.");
-        })
-        .catch(function (err) {
-          console.log("No it didn't. This happened:", err);
-        });
-    }
-  </script>
 </html>
