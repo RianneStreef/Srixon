@@ -6,13 +6,12 @@
 }
 
 .loader {
-  height: auto;
-  height: auto;
+  height: 100vh;
+  width: auto;
   background: url("../img/loader.jpg");
   opacity: 0;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -503,10 +502,6 @@ footer h3 {
     margin-right: auto;
     margin-left: auto;
     width: 900px;
-  }
-
-  .loader {
-    background-position-y: -200px;
   }
 
   nav {
