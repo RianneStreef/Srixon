@@ -9,13 +9,36 @@
     <title>Srixon EU & UK Catalogue</title>
     <link rel="icon" href="./img/favico.ico" />
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
-    <div class="loader"></div>
-    <script>
+    <div class="loader" id="loader">
+      <div class="loader-container">
+        <div class="lds-default">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- <script>
       setTimeout(function () {
         window.location.href = "./categories.html";
       }, 3000);
+    </script> -->
+    <script>
+      const loader = document.getElementById("loader");
+
+      setTimeout(() => loader.classList.add("fade-in"), 100);
     </script>
   </body>
 </html>
