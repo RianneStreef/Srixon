@@ -19,7 +19,8 @@
 }
 
 .index-wrapper {
-  height: 100vh;
+  background-color: rgba(227, 6, 19, 0.2);
+  min-height: 100vh;
   background-image: url("../img/bg-image.jpg");
   margin-top: auto;
   margin-bottom: auto;
@@ -27,7 +28,6 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .loader-container {
