@@ -20,7 +20,12 @@
 
 .fade-in {
   opacity: 1;
-  transition: opacity 2000ms linear;
+  transition: opacity 1000ms linear;
+}
+
+.fade-out {
+  opacity: 0.4;
+  transition: opacity 500ms linear;
 }
 
 .loader-container {

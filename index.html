@@ -36,12 +36,14 @@
     <script>
       setTimeout(function () {
         window.location.href = "./categories.html";
-      }, 3000);
+      }, 2500);
     </script>
     <script>
       const loader = document.getElementById("loader");
 
       setTimeout(() => loader.classList.add("fade-in"), 100);
+      setTimeout(() => loader.classList.add("fade-out"), 2000);
+      setTimeout(() => loader.classList.remove("fade-in"), 2000);
     </script>
   </body>
 </html>
