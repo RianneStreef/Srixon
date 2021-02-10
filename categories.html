@@ -10,11 +10,6 @@
     <link rel="icon" href="./img/favico.ico" />
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.json" />
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/pwacompat"
-      crossorigin="anonymous"
-    ></script>
 
     <!-- <script
       src="https://code.jquery.com/jquery-2.2.4.js"
@@ -31,54 +26,58 @@
     <!-- <div class="loader"></div> -->
     <div class="wrapper index-wrapper">
       <header>
-        <img src="./img/logo.jpg" class="header-img-main" />
+        <img
+          src="./img/logo.jpg"
+          class="header-img-main"
+          id="header-img-main"
+        />
       </header>
       <main>
         <div class="index-main">
           <a href="./categories/balls.html" class="category-card">
-            <div class="category ball-category">
+            <div class="category ball-category" id="category">
               <h2 class="h2-categories">BALLS</h2>
               <img src="./img/Header-Balls.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/clubs.html" class="category-card">
-            <div class="category clubs-category">
+            <div class="category clubs-category" id="category-2">
               <h2 class="h2-categories">CLUBS</h2>
               <img src="./img/Header-Clubs.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/golf-bags.html" class="category-card">
-            <div class="category golf-bags-category">
+            <div class="category golf-bags-category" id="category-3">
               <h2 class="h2-categories">GOLF BAGS</h2>
               <img src="./img/Header-Golf_Bags.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/travel-gear.html" class="category-card">
-            <div class="category gloves-category">
+            <div class="category gloves-category" id="category-4">
               <h2 class="h2-categories">travel gear</h2>
               <img src="./img/Header-Travel_Gear.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/headwear.html" class="category-card">
-            <div class="category ball-category">
+            <div class="category ball-category" id="category-5">
               <h2 class="h2-categories">headwear</h2>
               <img src="./img/Header-Caps.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/gloves.html" class="category-card">
-            <div class="category clubs-category">
+            <div class="category clubs-category" id="category-6">
               <h2 class="h2-categories">gloves</h2>
               <img src="./img/Header-Gloves.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/accessories.html" class="category-card">
-            <div class="category golf-bags-category">
+            <div class="category golf-bags-category" id="category-7">
               <h2 class="h2-categories">accessories</h2>
               <img src="./img/Header-Accessories.jpeg" class="cat-img" />
             </div>
           </a>
           <a href="./categories/demoday.html" class="category-card">
-            <div class="category gloves-category">
+            <div class="category gloves-category" id="category-8">
               <h2 class="h2-categories">demoday</h2>
               <img src="./img/Header-Demoday.jpeg" class="cat-img" />
             </div>
@@ -86,5 +85,26 @@
         </div>
       </main>
     </div>
+    <script>
+      const header = document.getElementById("header-img-main");
+      const category = document.getElementById("category");
+      const category2 = document.getElementById("category-2");
+      const category3 = document.getElementById("category-3");
+      const category4 = document.getElementById("category-4");
+      const category5 = document.getElementById("category-5");
+      const category6 = document.getElementById("category-6");
+      const category7 = document.getElementById("category-7");
+      const category8 = document.getElementById("category-8");
+
+      setTimeout(() => header.classList.add("fade-in"), 100);
+      setTimeout(() => category.classList.add("fade-in"), 100);
+      setTimeout(() => category2.classList.add("fade-in"), 100);
+      setTimeout(() => category3.classList.add("fade-in"), 100);
+      setTimeout(() => category4.classList.add("fade-in"), 100);
+      setTimeout(() => category5.classList.add("fade-in"), 100);
+      setTimeout(() => category6.classList.add("fade-in"), 100);
+      setTimeout(() => category7.classList.add("fade-in"), 100);
+      setTimeout(() => category8.classList.add("fade-in"), 100);
+    </script>
   </body>
 </html>
