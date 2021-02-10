@@ -571,6 +571,16 @@ footer h3 {
   .prev {
     text-align: left;
   }
+
+  .loader {
+    background-size: initial;
+    background-position: center;
+  }
+
+  .index-wrapper {
+    background-size: initial;
+    background-position: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
