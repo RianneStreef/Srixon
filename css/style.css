@@ -135,6 +135,11 @@
     transform: scale(1.5);
   }
 }
+.save-message {
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .center {
   position: absolute;
   top: 0;
