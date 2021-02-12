@@ -516,13 +516,6 @@ footer h3 {
 
 /* responsive */
 @media only screen and (min-width: 700px) {
-  body {
-    width: 900px;
-    height: 100vh;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .responsive {
     min-height: 100%;
     min-width: 100%;
@@ -590,6 +583,14 @@ footer h3 {
   .index-wrapper {
     background-size: initial;
     background-position: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  body {
+    width: 900px;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
