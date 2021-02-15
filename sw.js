@@ -5,9 +5,8 @@ var contentToCache = [
 '../index.html',
 '../categories.html',
 '../css/style.css',
-'../img/',
-'../categories/',
-'../products/'
+
+
 ];
 
 self.addEventListener('install', (e) => {
