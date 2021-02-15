@@ -4,7 +4,6 @@ var cacheName = 'js13kPWA-v1';
 var contentToCache = [
 '../index.html',
 '../categories.html',
-'../css/style.css',
 
 
 ];
