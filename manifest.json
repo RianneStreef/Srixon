@@ -3,13 +3,13 @@
   "name": "Srixon EU & Uk Catalogue",
   "icons": [
     {
-      "src": "./img/Favico-192.ico",
-      "type": "image/ico",
+      "src": "./img/Favico-192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/Favico-512.ico",
-      "type": "image/ico",
+      "src": "./img/Favico-512.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
