@@ -521,6 +521,12 @@ footer {
 //   }
 // }
 
+.download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
 }
 
