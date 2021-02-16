@@ -3,8 +3,18 @@ console.log('service worker running');
 var cacheName = '/srixon-v1';
 var contentToCache = [
 '../index.html',
-'../categories.html',
 
+'../categories.html',
+'../categories/accessories.html',
+'../categories/balls.html',
+'../categories/clubs.html',
+'../categories/demoday.html',
+'../categories/gloves.html',
+'../categories/golf-bags.html',
+'../categories/headwear.html',
+'../categories/travel-gear.html',
+
+'../products/accessories/bag-towel.html',
 
 ];
 
