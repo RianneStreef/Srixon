@@ -1,6 +1,6 @@
 console.log('service worker running');
 
-var cacheName = 'js13kPWA-v1';
+var cacheName = '/srixon-v1';
 var contentToCache = [
 '../index.html',
 '../categories.html',

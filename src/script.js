@@ -43,4 +43,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
         deferredPrompt = null;
       });
   });
+  const saveMsg = document.getElementById('save-message');
+
+    if (addBtn.style.display == "block") {
+      saveMsg.style.display = "none";
+    };  
+
 });
+
+
+

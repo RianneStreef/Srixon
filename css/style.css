@@ -521,6 +521,11 @@ footer h3 {
   justify-content: center;
 }
 
+.add-button img {
+  margin-top: 15px;
+  max-width: 200px;
+}
+
 @media only screen and (min-width: 700px) {
   .responsive {
     min-height: 100%;
