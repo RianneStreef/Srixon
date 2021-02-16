@@ -525,6 +525,7 @@ footer h3 {
 .add-button img {
   margin-top: 15px;
   max-width: 200px;
+  pointer-events: auto;
 }
 
 @media only screen and (min-width: 700px) {

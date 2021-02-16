@@ -18,6 +18,8 @@ console.log('script running');
 
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
+const saveMsg = document.getElementById('save-message');
+
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -31,6 +33,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   addBtn.addEventListener('click', (e) => {
     // hide our user interface that shows our A2HS button
     addBtn.style.display = 'none';
+    
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
@@ -43,7 +46,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
         deferredPrompt = null;
       });
   });
-  const saveMsg = document.getElementById('save-message');
 
     if (addBtn.style.display == "block") {
       saveMsg.style.display = "none";
