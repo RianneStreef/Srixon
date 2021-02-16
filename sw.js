@@ -16,6 +16,7 @@ var contentToCache = [
 
 '../products/accessories/bag-towel.html',
 
+
 ];
 
 self.addEventListener('install', (e) => {
