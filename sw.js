@@ -1,6 +1,6 @@
 console.log("service worker running");
 
-var cacheName = "/srixon-v2";
+var cacheName = "/srixon-v3";
 var contentToCache = ["../index.html", "../categories.html"];
 
 self.addEventListener("install", (e) => {
