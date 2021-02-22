@@ -1,6 +1,6 @@
 console.log('service worker running');
 
-var cacheName = '/srixon-v1';
+var cacheName = '/srixon-v2';
 var contentToCache = [
 '../index.html',
 '../categories.html',
@@ -14,9 +14,7 @@ var contentToCache = [
 '../categories/headwear.html',
 '../categories/travel-gear.html',
 
-'../products/accessories/bag-towel.html',
-
-
+'../products/clubs/Custom-Shafts-v2.pdf'
 ];
 
 self.addEventListener('install', (e) => {
