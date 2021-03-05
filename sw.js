@@ -1,13 +1,13 @@
 console.log("service worker running");
 
-var cacheName = "/srixon-v16";
+var cacheName = "/srixon-v17";
 var contentToCache = [
-  "../index.html",
-  "../categories.html",
-  "../categories/golf-bags.html",
-  "../products/golf-bags/srixon-tour-staff.html",
-  "../products/golf-bags/tour-cart.html",
-  "../products/golf-bags/tour-stand.html",
+  // "../index.html",
+  // "../categories.html",
+  // "../categories/golf-bags.html",
+  // "../products/golf-bags/srixon-tour-staff.html",
+  // "../products/golf-bags/tour-cart.html",
+  // "../products/golf-bags/tour-stand.html",
 ];
 
 self.addEventListener("install", (e) => {
