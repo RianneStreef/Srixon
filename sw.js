@@ -4,10 +4,10 @@ var cacheName = "/srixon-v13";
 var contentToCache = [
   "../index.html",
   "../categories.html",
-  "../categories/golf-bags.html",
-  "../products/golf-bags/srixon-tour-staff.html",
-  "../products/golf-bags/tour-cart.html",
-  "../products/golf-bags/tour-stand.html",
+  "../categories/golf-bags-v2.html",
+  "../products/golf-bags/srixon-tour-staff-v2.html",
+  "../products/golf-bags/tour-cart-v2.html",
+  "../products/golf-bags/tour-stand-v2.html",
 ];
 
 self.addEventListener("install", (e) => {
