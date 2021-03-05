@@ -1,6 +1,6 @@
 console.log("service worker running");
 
-var cacheName = "/srixon-v17";
+var cacheName = "/srixon-v2.0";
 var contentToCache = [
   // "../index.html",
   // "../categories.html",
