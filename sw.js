@@ -1,14 +1,7 @@
 console.log("service worker running");
 
 var cacheName = "/srixon-v14";
-var contentToCache = [
-  "../index.html",
-  "../categories.html",
-  "../categories/golf-bags-v2.html",
-  "../products/golf-bags/srixon-tour-staff-v2.html",
-  "../products/golf-bags/tour-cart-v2.html",
-  "../products/golf-bags/tour-stand-v2.html",
-];
+var contentToCache = ["../index.html"];
 
 self.addEventListener("install", (e) => {
   self.skipWaiting();
