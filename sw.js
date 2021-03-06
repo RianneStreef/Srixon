@@ -10,6 +10,11 @@ var contentToCache = [
   // "../products/golf-bags/tour-stand.html",
 ];
 
+caches.keys().then(function (names) {
+  for (let name of names) caches.delete(name);
+  console.log("caches deleted");
+});
+
 self.addEventListener("install", (e) => {
   self.skipWaiting();
 
