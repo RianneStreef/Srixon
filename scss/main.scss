@@ -400,6 +400,32 @@ footer {
   justify-content: space-evenly;
 }
 
+.matrix {
+  width: 100vw;
+  margin-top: 25px;
+}
+
+.matrix-body {
+  margin: 0;
+  padding: 0;
+}
+
+.matrix-nav {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.matrix-download {
+  width: 30%;
+}
+
 /* image slider */
 
 /* Slideshow container */
